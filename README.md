@@ -58,10 +58,10 @@ Each edge is assigned a name.
                |       |
                |       |
 
-The face is calculated by keeping track of which edges are present and in which number.  There are four main categories of faces, as shown below.  These can laos be mirrored left-to-right, but that still counts as part of the same category.
+The face is calculated by keeping track of which edges are present and in which number.  There are four main categories of faces, as shown below.  These can also be mirrored left-to-right, but that still counts as part of the same category.
 
                
-               Flat (++-/-+-)
+         Flat (++-/-+-)
             \  _________  /
              \/\        \/
              /  \        \
@@ -75,7 +75,7 @@ The face is calculated by keeping track of which edges are present and in which 
                |       |
                |       |
                
-               Eldredge (+-+/--+)
+         Eldredge (+-+/--+)
             \  _________  /
              \/\        \/
              /  \        \
@@ -89,7 +89,7 @@ The face is calculated by keeping track of which edges are present and in which 
                |       |
                |       |
                
-               Trinity (+++/---)
+         Trinity (+++/---)
             \  _________  /
              \/\        \/
              /  \        \
@@ -103,7 +103,7 @@ The face is calculated by keeping track of which edges are present and in which 
                |       |
                |       |
                
-               Diagonal (+--/-++)
+         Diagonal (+--/-++)
             \  _________  /
              \/\        \/
              /  \        \
