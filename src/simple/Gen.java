@@ -163,7 +163,7 @@ public class Gen {
 		// }
 		// }
 		// }
-		if (Math.abs(k.symmetry()) <= 0 && k.shape() == 3 && k.twirl() <= 0 && k.moves.size() - k.weight() == 2) {
+		if (Math.abs(k.symmetry()) <= 0 && k.shape() <= 3 && k.twirl() <= 0 && k.moves.size() - k.weight() == 2) {
 			if (k.weight() <= 9 && k.moves.get(k.moves.size() - 2) == M.C && k.weight() % 2 == 1) {
 				k.calcStyle();
 				if (k.facesym() <= 3 && k.switchback() <= 3 && k.awkwardtucks <= 0) {

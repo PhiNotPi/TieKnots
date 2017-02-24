@@ -180,6 +180,7 @@ public class Knot {
 		int p = 0;
 		cf = new int[2];
 		lf = new int[2];
+		lf[0] = 1;
 		rf = new int[2];
 		ce = new int[2];
 		le = new int[2];
